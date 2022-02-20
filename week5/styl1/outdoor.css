@@ -1,0 +1,76 @@
+body {
+    font-family: Roboto;
+
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+}
+
+a:hover {
+    color: blue;
+}
+
+.sale {
+    display: flex;
+    height: 36px;
+    justify-content: center;
+    align-items: center;
+    background-color: #000F9F;
+    font-size: 13px;
+    line-height: 18px;
+    letter-spacing: 0.25px;
+    color: #FFFFFF;
+}
+
+.nav {
+    display: flex;
+    border: solid red;
+    height: 72px;
+    align-items: stretch;
+    justify-content: space-around;
+}
+
+.leftnav {
+    display: flex;
+    gap: 24px;
+    font-size: 13px;
+    letter-spacing: 0.3px;
+    align-items: center;
+}
+
+.midnav {
+    display: flex;
+    font-size: 19px;
+    font-weight: 900;
+    align-items: center;
+}
+
+.rightnav {
+    display: flex;
+    gap: 24px;
+    align-items: center;
+}
+
+.search {
+    margin-top: 6px;
+}
+
+.account,
+.basket {
+    display: flex;
+    flex-direction: column;
+}
+
+.foto1 {
+    width: 8px;
+    height: 8px;
+    padding-left: 1.5px;
+}
+
+.foto2 {
+    width: 8px;
+    height: 4px;
+    padding-left: 3px;
+}
