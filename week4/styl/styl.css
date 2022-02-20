@@ -1,0 +1,598 @@
+body {
+    max-width: 1440px;
+    padding-left: 230px;
+    padding-right: 20px;
+}
+
+.title {
+
+    /* блок */
+    padding: 11px 569px 11px 569px;
+    /* оформление */
+    background: #D8BF95;
+    border-radius: 0px;
+}
+
+.menu {
+    /* блок */
+    padding: 35px 0px 35px 0px;
+    /* типографика */
+    text-transform: uppercase;
+    color: #000000;
+    /* оформление */
+    background: #F1F1F1;
+    border-radius: 0px;
+}
+
+a:hover {
+    color: #D8BF95;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a.visited {
+    color: coral;
+}
+
+a {
+    /* типографика */
+    color: #000;
+}
+
+.a1 {
+    padding-left: 30px;
+    padding-right: 261px;
+}
+
+.a2 {
+    padding-right: 202px;
+}
+
+.a3 {
+    padding-right: 11px;
+}
+
+.a4 {
+    padding-left: 115px;
+    padding-right: 228px;
+}
+
+.a5 {
+    padding-right: 55px;
+}
+
+img.foto1 {
+    /* блок */
+    height: 630px;
+    width: 480px;
+
+}
+
+.textfoto1 {
+    /* позиция */
+    position: absolute;
+    left: 32px;
+    top: 579px;
+    /* типографика */
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
+
+img.foto2 {
+    /* позиция */
+    margin-left: -4px;
+    /* блок */
+    height: 630px;
+    width: 480px;
+
+}
+
+.fotoall {
+    position: relative;
+}
+
+img.foto3 {
+    /* позиция */
+    margin-left: -4px;
+    /* блок */
+    height: 630px;
+    width: 480px;
+}
+
+.textfoto2 {
+    /* позиция */
+    position: absolute;
+    left: 990px;
+    top: 579px;
+    /* типографика */
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    text-transform: capitalize;
+    /* оформление */
+    color: #FFFFFF;
+}
+
+.textfoto3 {
+    /* позиция */
+    position: absolute;
+    left: 1289px;
+    top: 496px;
+    /* типографика */
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    text-transform: uppercase;
+    /* оформление */
+    color: #000000;
+}
+
+.text {
+
+    /* блок */
+    margin: 116px 484px 31px 64px;
+    /* типографика */
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 64px;
+    line-height: 64px;
+    /* оформление */
+    color: #000000;
+}
+
+.text2 {
+    /* позиция */
+    position: absolute;
+    left: 1270px;
+    top: 125px;
+    /* типографика */
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    text-transform: uppercase;
+    /* оформление */
+    color: #000000;
+}
+
+p.text3 {
+    /* блок */
+    margin: 31px 561px 153px 64px;
+    /* типографика */
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 25px;
+    /* оформление */
+    color: #000000;
+}
+
+article.texte {
+    /* позиция */
+    position: relative;
+}
+
+.h1 {
+    /* блок */
+    margin: 0px 1122px 0px 64px;
+}
+
+.h1,
+.h2,
+.text10,
+.text11,
+.text12 {
+    /* типографика */
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 30px;
+    /* оформление */
+    color: #000000;
+}
+
+.text4 {
+    /* блок */
+    display: inline-block;
+    margin-top: 60px;
+    margin-left: 86px;
+    margin-bottom: 0px;
+    /* типографика */
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    /* оформление */
+    color: #000000;
+}
+
+.text5 {
+    /* блок */
+    display: inline-block;
+    margin-top: 60px;
+    margin-left: 597px;
+    margin-bottom: 0px;
+    /* типографика */
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    /* оформление */
+    color: #000000;
+}
+
+img.ring2 {
+    /* блок */
+    height: 602px;
+    width: 386.81px;
+    margin-top: 0px;
+    margin-left: 107.18px;
+    margin-bottom: 0px;
+}
+
+.textfoto4,
+.textfoto5,
+.text6,
+.text7,
+.text8,
+.menu,
+.title {
+    /* типографика */
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    /* оформление */
+    color: #000000;
+}
+
+.textfoto4 {
+    /* позиция */
+    position: absolute;
+    left: 86px;
+    top: 466px;
+}
+
+.text6 {
+    /* позиция */
+    position: absolute;
+    top: 466px;
+    left: 399px;
+}
+
+.ring1 {
+    /* блок */
+    height: 443px;
+    width: 341px;
+    margin-top: 50px;
+    margin-left: 43px;
+    margin-bottom: 159px;
+}
+
+img.ring3 {
+    /* блок */
+    height: 451px;
+    width: 347px;
+    margin-top: 20px;
+    margin-left: 56px;
+    margin-bottom: 151px;
+}
+
+.textfoto5 {
+    position: absolute;
+    left: 977px;
+    top: 474px;
+}
+
+.text7 {
+    /* позиция */
+    position: absolute;
+    top: 474px;
+    right: 50px;
+}
+
+img.tshirt1 {
+    width: 720px;
+    height: 936px;
+}
+
+img.tshirt2 {
+    margin-left: -4px;
+    width: 720px;
+    height: 936px;
+}
+
+img.text8 {
+    position: absolute;
+    top: 854px;
+    left: 770px;
+}
+
+.textfoto6 {
+    /* позиция */
+    position: absolute;
+    left: 770px;
+    top: 47px;
+    /* типографика */
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 44px;
+    line-height: 60px;
+    /* оформление */
+    color: #000000;
+}
+
+.h2 {
+    /* блок */
+    margin: 43px 1147px 16px 64px;
+}
+
+img.rec1 {
+    /* блок */
+    width: 468px;
+    height: 609px;
+    margin: -3px 0px 99px 5px;
+}
+
+img.rec2 {
+    /* блок */
+    width: 468px;
+    height: 609px;
+    margin: -3px 0px 99px 5px;
+}
+
+img.rec3 {
+    /* блок */
+    width: 468px;
+    height: 609px;
+    margin: -3px 0px 99px 5px;
+}
+
+.textfoto7 {
+    /* позиция */
+    position: absolute;
+    left: 43px;
+    top: 593px;
+}
+
+.textfoto8 {
+    /* позиция */
+    position: absolute;
+    left: 975px;
+    top: 593px;
+}
+
+.textfoto8,
+.textfoto7 {
+    /* типографика */
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 33px;
+    line-height: 42px;
+    text-transform: capitalize;
+    /* оформление */
+    color: #FFFFFF;
+}
+
+.text9 {
+    /* блок */
+    margin: 0px 746px 84px 64px;
+    /* типографика */
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 43px;
+    line-height: 60px;
+    /* оформление */
+    color: #000000;
+}
+
+img.rec4 {
+    /* блок */
+    width: 233px;
+    height: 233px;
+    margin: 0px 211px 68px 160px;
+}
+
+img.rec5 {
+    /* блок */
+    width: 233px;
+    height: 233px;
+    margin: 0px 203px 68px 0px;
+}
+
+img.rec6 {
+    /* блок */
+    width: 233px;
+    height: 233px;
+    margin: 0px 159px 68px 0px;
+}
+
+.nam1,
+.nam2,
+.nam3 {
+    /* типографика */
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 45px;
+    /* Оформление */
+    color: #000000;
+}
+
+.nam1 {
+    /* блок */
+    display: inline-block;
+    margin: 0px 410px 72px 64px;
+}
+
+.nam2 {
+    /* блок */
+    display: inline-block;
+    margin: 0px 402px 72px 0px;
+}
+
+.nam3 {
+    /* блок */
+    display: inline-block;
+    margin: 0px 420px 72px 0px;
+}
+
+.text10 {
+    /* блок */
+    display: inline-block;
+    width: 424px;
+    height: 60px;
+    margin: 0px 20px 128px 64px;
+}
+
+.text11 {
+    /* блок */
+    display: inline-block;
+    width: 322px;
+    height: 60px;
+    margin: 0px 122px 128px 0px;
+}
+
+.text12 {
+    /* блок */
+    display: inline-block;
+    width: 370px;
+    height: 60px;
+    margin: 0px 100px 128px 0px;
+}
+
+.menufoot {
+    /* типографика */
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.h3 {
+    /* типографика */
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    /* оформление */
+    color: #000000;
+}
+
+.nav1,
+.nav2,
+.nav3,
+.nav4,
+.menufoot {
+    display: inline-block;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    /* оформление */
+    color: #000000;
+}
+
+.nav1 {
+    margin: 0px 365px 88px 64px;
+}
+
+.nav2 {
+    margin: 0px 92px 68px 0px;
+}
+
+.nav3 {
+    margin: 0px 114px 58px 0px;
+}
+
+.nav4 {
+    margin: 0px 110px 118px 0px;
+}
+
+.text13 {
+    /* блок */
+    margin: 0px 1316px 20px 64px;
+    /* типографика */
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 29px;
+    /* оформление */
+    color: #000000;
+}
+
+.en1,
+.text14,
+.text15 {
+    display: inline-block;
+}
+
+.en1 {
+    margin: 6px 405px 0px 291px;
+}
+
+.text14,
+.text15 {
+    /* типографика */
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    /* оформление */
+    color: #9B9B9B;
+}
+
+.text14 {
+    margin: 6px 336px 0px 0px;
+}
+
+.text15 {
+    margin: 6px 60px 0px 0px;
+}
+
+.facebook {
+    width: 38px;
+    height: 38px;
+    margin: 0px 12px 0px 65px;
+}
+
+.instagram {
+    width: 38px;
+    height: 38px;
+}
+
+li {
+    list-style-type: none;
+    line-height: 2;
+}
+
+.h3 {
+    padding-left: 40px;
+}
