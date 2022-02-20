@@ -26,7 +26,6 @@ a:hover {
 
 .nav {
     display: flex;
-    border: solid red;
     height: 72px;
     align-items: stretch;
     justify-content: space-around;
@@ -73,4 +72,53 @@ a:hover {
     width: 8px;
     height: 4px;
     padding-left: 3px;
+}
+
+.section1 {
+    display: flex;
+    position: relative;
+    flex: 1 1 auto;
+}
+
+.fotosection1 {
+    width: 100%;
+    height: 810px;
+}
+
+.h1 {
+    position: absolute;
+    margin-top: 45px;
+    margin-left: 1200px;
+    font-size: 66px;
+    line-height: 80px;
+    letter-spacing: 3.2px;
+    color: #FFFFFF;
+}
+
+.h2 {
+    position: absolute;
+    margin-top: 243px;
+    margin-left: 1200px;
+    font-size: 24px;
+    line-height: 31px;
+    letter-spacing: 0.3px;
+    color: #FFFFFF;
+}
+
+.button1 {
+    position: absolute;
+    margin-top: 340px;
+    margin-left: 1200px;
+    height: 48px;
+    background: #FFFFFF;
+    border-radius: 24px;
+    border: none;
+}
+
+.section2 {
+    display: flex;
+    justify-content: space-around;
+    height: 216px;
+    border: solid;
+    padding-bottom: 51px;
 }
