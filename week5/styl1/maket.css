@@ -14,10 +14,18 @@
     font-size: large;
 }
 
+.section_all {
+    display: flex;
+    flex-direction: row;
+    align-items: space-around;
+
+
+}
+
 .article {
     display: flex;
     width: 70%;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
@@ -27,7 +35,7 @@
     gap: 10px;
 }
 
-.aside {
+.div_article .aside {
     display: flex;
     width: 30%;
     background-color: aquamarine;
