@@ -253,7 +253,7 @@ body {
     background-image: url(../images/port.png);
     grid-area: box-portfolio;
     height: 764px;
-    width: 1214px;
+    width: 89%;
     position: relative;
 }
 
@@ -616,7 +616,7 @@ input:focus {
     grid-template-rows: 1fr min-content repeat(2, 0.5fr) 1fr;
     padding-top: 103px;
     gap: 15px;
-    width: 1214px;
+    width: 64%;
     justify-self: center;
     padding-bottom: 45px;
 }
@@ -711,7 +711,7 @@ input:focus {
     grid-template-rows: 1fr;
     gap: 10px;
     padding-top: 46px;
-    width: 1214px;
+    width: 64%;
     justify-self: center;
 }
 
