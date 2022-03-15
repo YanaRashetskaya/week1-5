@@ -17,7 +17,7 @@
     <div class="wrapper">
         <header class="header">
             <a class="header-logo" href="digital.html">
-                <img src="image/logo.png" alt="logo">
+                <img class="logo" src="image/logo.png" alt="logo">
             </a>
             <nav class="header-nav">
                 <div class="menuDigital">
@@ -43,9 +43,6 @@
                         </li>
                     </ul>
                 </div>
-                <div class="fonphoto fon">
-                    <img src="image/rectangle1.svg" alt="mainphoto">
-                </div>
             </nav>
             <div class="header-text">
                 <h1 class="header-title">web applications</h1>
@@ -57,7 +54,7 @@
                 </div>
             </div>
         </header>
-        <main>
+        <main class="main">
             <section class="content_inform">
                 <img class="foto1" src="image/net.png" alt="images">
                 <div class="text-box">
@@ -74,10 +71,9 @@
             </section>
             <section class="portfolio">
                 <h2 class="portfolio_title title">Портфолио </h2>
+                <img class="foto-portfolio" src="image/port.png" alt="scrol">
                 <img class="scrol-portfolio" src="image/scrol.png" alt="scrol">
-                <div class="box-portfolio">
-                    <a href="#" class="button2 button"> Перейти на сайт </a>
-                </div>
+                <a href="#" class="button2 button"> Перейти на сайт </a>
             </section>
             <section class="work">
                 <h2 class="work_title name title"> Что мы предлагаем</h2>
@@ -122,7 +118,7 @@
                 <div class="ben1_name">Сделаем адаптивный дизайн, под любой вид устройств</div>
                 <img class="img2_benefits" src="image/ben2.png" alt="images">
                 <div class="ben2_name">Настроим все возможные способы обратной связи. Заявки на почту, подключим
-                    онлайн консультанта, настроим телефонный звон с сайта, подключим Whatsapp к сайту</div>
+                    онлайн консультанта, настроим телефонный звонок с сайта, подключим Whatsapp к сайту</div>
                 <img class="img3_benefits" src="image/ben3.png" alt="images">
                 <div class="ben3_name">Установим на сайт счетчики аналитики и настроим возможность отслеживать
                     результаты прямо с вашего мобильного телефона</div>
@@ -135,16 +131,16 @@
                     <div class="apply">
                         <h2 class="title_apply title name"> Заявка</h2>
                         <div class="your__name">
-                            <label for="vlad" class="label_1 name">Ваше имя</label>
-                            <input class="input_1" type="text" name="vlad1" id="vlad" />
+                            <label for="vladelec" class="label_1 name">Ваше имя</label>
+                            <input class="input" type="text" name="vladelec" id="vlad" />
                         </div>
                         <div class="your__sername">
                             <label for="email" class="label_2 name">Ваш Email</label>
-                            <input class="input_2" type="text" name="vlad2" id="email" />
+                            <input class="input" type="text" name="email" id="email" />
                         </div>
                         <div class="message">
                             <label for="contact" class="name">Сообщение</label>
-                            <textarea rows="10" cols="20" name="vlad3" id="contact"></textarea>
+                            <textarea rows="10" cols="20" class="textarea" name="contact" id="contact"></textarea>
                         </div>
                         <a href="#" class="button4 button name"> Отправить </a>
                     </div>
@@ -159,48 +155,50 @@
         </main>
         <footer class="footer name">
             <div class="columns">
-                <h2 class="point__title1">Пункт</h2>
-                <div class="point1__1">
+                <h2 class="point__title1 spoil">Пункт</h2>
+                <div class="point1__1 spoil_text">
                     В своём стремлении улучшить пользовательский опыт мы упускаем, что многие известные личности.
                 </div>
-                <div class="point1__2">
+                <div class="point1__2 spoil_text">
                     Пункт
                 </div>
-                <div class="point1__3">
+                <div class="point1__3 spoil_text">
                     Пункт
                 </div>
-                <h2 class="point__title2">Пункт</h2>
-                <div class="point2__1">
+                <h2 class="point__title2 spoil">Пункт</h2>
+                <div class="point2__1 spoil_text">
                     В своём стремлении улучшить пользовательский опыт мы упускаем, что многие известные личности.
                 </div>
-                <div class="point2__2">
+                <div class="point2__2 spoil_text">
                     Пункт
                 </div>
-                <div class="point2__3">
+                <div class="point2__3 spoil_text">
                     Пункт
                 </div>
-                <h2 class="point__title3">Пункт</h2>
-                <div class="point3__1">
+                <h2 class="point__title3 spoil">Пункт</h2>
+                <div class="point3__1 spoil_text">
                     В своём стремлении улучшить пользовательский опыт мы упускаем, что многие известные личности.
                 </div>
-                <div class="point3__2">
+                <div class="point3__2 spoil_text">
                     Пункт
                 </div>
-                <div class="point3__3">
+                <div class="point3__3 spoil_text">
                     Пункт
                 </div>
-                <h2 class="address">
+            </div>
+            <address class="address">
+                <h2 class="title__address spoil">
                     Контакты
                 </h2>
-                <img class="namber__photo" src="image/fi_phone-call.png" alt="namber">
-                <div class="namber">
+                <img class="namber__photo spoil_text" src="image/fi_phone-call.png" alt="namber">
+                <div class="namber spoil_text">
                     +7 777 7777 77 77
                 </div>
-                <img class="mail__photo" src="image/fi_mail.svg" alt="mail">
-                <div class="mail">email@email.ru</div>
-                <img class="map__photo" src="image/fi_map-pin.png" alt="map">
-                <div class="map">г. Москва</div>
-            </div>
+                <img class="mail__photo spoil_text" src="image/fi_mail.svg" alt="mail">
+                <div class="mail spoil_text">email@email.ru</div>
+                <img class="map__photo spoil_text" src="image/fi_map-pin.png" alt="map">
+                <div class="map spoil_text">г. Москва</div>
+            </address>
             <img class="line__footer" src="image/Linefooter.png" alt="line footer">
             <div class="messages">
                 <div class="messages__logo">digital flow</div>
@@ -221,6 +219,8 @@
                 </a>
             </div>
         </footer>
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+        <script src="style/spoil.js"></script>
     </div>
 </body>
 
