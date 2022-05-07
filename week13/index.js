@@ -1,6 +1,6 @@
 
 function showName() {
-let name = prompt('Ваше имя?', );
-alert(`Привет ${name}!`);
+    const name = prompt('Ваше имя?', );
+    alert(`Привет ${name}!`);
 }
 
