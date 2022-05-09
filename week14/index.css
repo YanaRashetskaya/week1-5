@@ -2,3 +2,10 @@
     background-color: rgb(68, 20, 113);
     color:white;
 }
+
+#photoNature{
+    height: 500px;
+    width: 800px;
+    border: 1px solid gold;
+    background-image: url( "https://www.advantour.com/img/kazakhstan/nature/kazakhstan-nature.jpg");
+}

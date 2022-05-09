@@ -42,21 +42,51 @@ function select(sender) {
 }
 
 //Задание 3
-let photoNature2 = "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Desert_Electric.jpg/1200px-Desert_Electric.jpg";
-let photoNature3 = "https://natworld.info/wp-content/uploads/2019/07/Prirodnye-jekosistemy.jpg";
-let photoNature4 = "https://s9.travelask.ru/system/images/files/000/336/892/wysiwyg_jpg/10452canada-landscape-map-wallpaper-3.jpg?1502197579";
+let photoNature1 = 'url("https://www.advantour.com/img/kazakhstan/nature/kazakhstan-nature.jpg")';
+let photoNature2 = 'url("https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Desert_Electric.jpg/1200px-Desert_Electric.jpg")';
+let photoNature3 = 'url("https://natworld.info/wp-content/uploads/2019/07/Prirodnye-jekosistemy.jpg")';
+let photoNature4 = 'url("https://s9.travelask.ru/system/images/files/000/336/892/wysiwyg_jpg/10452canada-landscape-map-wallpaper-3.jpg?1502197579")';
 
-let photoNature = document.getElementById ('photoNature');
+let photoNature = document.getElementById('photoNature');
+let next = document.getElementById('next');
+let back = document.getElementById('back');
 
-photoNature.addEventListener ("click", () => { 
+next.addEventListener ("click", () => {
     const image = photoNature.style.backgroundImage;
-    if (image === photoNature) {
+
+    if (image === photoNature1) {
         photoNature.style.backgroundImage = photoNature2;
     }
     if (image === photoNature2) {
         photoNature.style.backgroundImage = photoNature3;
     }
     if (image === photoNature3) {
+        photoNature.style.backgroundImage = photoNature4;
+    }
+    if (image === photoNature4) {
+        photoNature.style.backgroundImage = photoNature1;
+    }
+    if (!image) {
+        photoNature.style.backgroundImage = photoNature2;
+    }
+});
+
+back.addEventListener ("click", () => {
+    const image = photoNature.style.backgroundImage;
+
+    if (image === photoNature1) {
+        photoNature.style.backgroundImage = photoNature4;
+    }
+    if (image === photoNature4) {
+        photoNature.style.backgroundImage = photoNature3;
+    }
+    if (image === photoNature3) {
+        photoNature.style.backgroundImage = photoNature2;
+    }
+    if (image === photoNature2) {
+        photoNature.style.backgroundImage = photoNature1;
+    }
+    if (!image) {
         photoNature.style.backgroundImage = photoNature4;
     }
 });
