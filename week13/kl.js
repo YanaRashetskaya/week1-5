@@ -1,3 +1,4 @@
+
 function showplus() {
     const a = prompt("Первое число?");
     const b = prompt("Второе число?");
@@ -19,5 +20,10 @@ function showtimes() {
 function showdivide() {
     const a = prompt("Первое число?");
     const b = prompt("Второе число?");
-    alert(a / b); 
+    if (b == 0) {
+        alert ('На ноль делить нельзя!');
+}
+else {
+    alert (a/b);
+}
 }
