@@ -13,7 +13,7 @@ function background()
   document.getElementById ("background").style.backgroundColor = "yellow";
 }
 /*Задание 2*/
-function check()
+    function check()
     {
         let name = document.getElementById ("inputName");
         let name2 = document.getElementById ("inputName2");
@@ -49,6 +49,15 @@ function check()
         if (phone.value == '') {
           document.getElementById ('errorPhone').innerHTML+= "Пожалуйста, укажите номер телефона<br>";
         }
-        
-        
     }
+
+    function nameCheck() {
+      const name= document.getElementById ('inputName').value;
+      const name2= document.getElementById ('inputName2').value;
+      alert(`Добро пожаловать, ${name} ${name2}!`);
+    }
+
+    button.addEventListener("click", check);
+    button.addEventListener("click", nameCheck);
+
+    //еще не завершен
