@@ -1,35 +1,37 @@
 /*Задание 3*/
+let color = document.getElementById ("color");
 function background()
 {
-  if (document.getElementById ("color").value == "first")
+  if ( color.value == "first")
   document.getElementById ("background").style.backgroundColor = 'white';
-  if (document.getElementById ("color").value == "second")
+  if (color.value == "second")
   document.getElementById ("background").style.backgroundColor = "blue";
-  if (document.getElementById ("color").value == "third")
+  if (color.value == "third")
   document.getElementById ("background").style.backgroundColor = "red";
-  if (document.getElementById ("color").value == "fourth")
+  if (color.value == "fourth")
   document.getElementById ("background").style.backgroundColor = "green";
-  if (document.getElementById ("color").value == "fifth")
+  if (color.value == "fifth")
   document.getElementById ("background").style.backgroundColor = "yellow";
 }
 /*Задание 2*/
+   
+    const name1 = document.getElementById ("inputName");
+    const name2 = document.getElementById ("inputName2");
+    const login = document.getElementById ("inputLogin");
+    const password1 = document.getElementById ("inputPassword1");
+    const password2 = document.getElementById ("inputPassword2");
+    const  phone = document.getElementById ("inputPhone");
     let isFormValid = true;
 
     function check()
     {
-        let name = document.getElementById ("inputName");
-        let name2 = document.getElementById ("inputName2");
-        let login = document.getElementById ("inputLogin");
-        let password1 = document.getElementById ("inputPassword1");
-        let password2 = document.getElementById ("inputPassword2");
-        let  phone = document.getElementById ("inputPhone");
         document.getElementById ('errorName').innerHTML = '';
         document.getElementById ('errorName2').innerHTML = '';
         document.getElementById ('errorLogin').innerHTML = '';
         document.getElementById ('errorPassword1').innerHTML = '';
         document.getElementById ('errorPassword2').innerHTML = '';
         document.getElementById ('errorPhone').innerHTML = '';
-        if (name.value == '') {
+        if (name1.value == '') {
           document.getElementById ('errorName').innerHTML+= "Пожалуйста, укажите имя<br>";
           isFormValid = false;
         }
@@ -64,11 +66,8 @@ function background()
 
     function nameCheck() {
       if (isFormValid == true) {
-      const nameHello= document.getElementById ('inputName').value;
-      const name2Hello= document.getElementById ('inputName2').value;
-      alert(`Добро пожаловать, ${nameHello} ${name2Hello}!`);
+      alert(`Добро пожаловать, ${name1.value} ${name2.value}!`);
       }
     }
-
     button.addEventListener("click", check);
     button.addEventListener("click", nameCheck);
