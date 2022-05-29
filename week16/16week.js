@@ -1,4 +1,5 @@
 let numbers = [];
+numbers.sort();
 
 function sumInput() {
 

@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cena-auto</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <style>
+        .form-control {
+            width: 18.75rem;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container-fluid m-5">
+        <h1 class="h1 text-center m-4">Оцените свою машину за 1 минуту</h1>
+        <div class="row">
+            <div class="col-3 m-2">
+                <select id="inputState1" onchange="chooseAuto()" class="form-control">
+                    <option value="marc"> Марка </option>
+                    <option value="audi">Audi</option>
+                    <option value="bmv">BMW</option>
+                    <option value="mazda">Mazda</option>
+                </select>
+            </div>
+            <div class="col-3 m-2">
+                <select id="model" class="form-control">
+                    <option value="model"> Модель</option>
+                    <option value="a4">А4</option>
+                    <option value="a6">А6</option>
+                    <option value="a7">А7</option>
+                    <option value="7серия">7 серия</option>
+                    <option value="М6">М6</option>
+                    <option value="Х5">Х5</option>
+                    <option value="CX-5">CX-5</option>
+                    <option value="6">6</option>
+                    <option value="3">3</option>
+                </select>
+            </div>
+            <div class="col-3 m-2">
+                <select id="Year" class="form-control">
+                    <option value="year">Год выпуска</option>
+                    <option value="2022">2022</option>
+                    <option value="2021">2021</option>
+                    <option value="2020">2020</option>
+                    <option value="2019">2019</option>
+                    <option value="2018">2018</option>
+                    <option value="2017">2017</option>
+                </select>
+            </div>
+            <div class="col-3 m-2">
+                <select id="Generation" class="form-control">
+                    <option value="generation">Поколение</option>
+                    <option value="C8">C8, 2018-...</option>
+                    <option value="B9">B9, 2019-...</option>
+                    <option value="D5">K8, 2018-...</option>
+                    <option value="G11">G11, 2019-...</option>
+                    <option value="F13">F13, 2017-...</option>
+                    <option value="G05">G05, 2018-...</option>
+                    <option value="II">II, 2017-...</option>
+                    <option value="III">III, 2018-...</option>
+                    <option value="BP">BP, 2019-...</option>
+                </select>
+            </div>
+            <div class="col-3 m-2">
+                <select id="Modification" class="form-control">
+                    <option value="modification">Модификация</option>
+                    <option value="at">1.4 АТ/150/Бензин/Передний</option>
+                    <option value="at">2.0 МТ/234/Бензин/Передний</option>
+                    <option value="at">1.6 АТ/197/Дизель/Полный</option>
+                    <option value="at">2.5 АТ/256/Бензин/Задний</option>
+                    <option value="at">1.8 АТ/223/Бензин/Полный</option>
+                    <option value="at">2.0 АТ/249/Бензин/Полный</option>
+                </select>
+            </div>
+            <div class="col-3 m-2">
+                <select id="Hide" class="form-control">
+                    <option value="hide">Тип кузова</option>
+                    <option value="january">Седан</option>
+                    <option value="february">Универсал</option>
+                    <option value="march">Лифтбек</option>
+                    <option value="march">Внедорожник</option>
+                </select>
+            </div>
+            <div class="col-3 m-2">
+                <select id="Equipment" class="form-control">
+                    <option value="equipment">Комплектация</option>
+                    <option value="january">Базовая</option>
+                    <option value="february">Средняя</option>
+                    <option value="march">Максимальная</option>
+                </select>
+            </div>
+            <div class="col-3 m-2">
+                <input type="text" class="form-control" id="inputCar" placeholder="Пробег,км">
+            </div>
+            <div class="col-12 m-2">
+                <button type="button" class="btn btn-info">Оценить</button>
+            </div>
+            <div id="resultat"></div>
+        </div>
+    </div>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous">
+    </script>
+    <script src="car.js"> </script>
+</body>
+
+</html>
