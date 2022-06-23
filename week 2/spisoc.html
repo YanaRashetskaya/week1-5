@@ -6,19 +6,30 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        input:required:valid {
+            border-color: green;
+        }
+    </style>
 </head>
 
 <body>
     <form>
         <h1>Опросник для обладателей котиков</h1>
         <div>
-            <label for="name">Кличка питомца</label>
-            <input type="text" name="name1" id="name" />
+            <label for="nameCat">Кличка питомца</label>
+            <input type="text" name="name1" id="nameCat" required pattern="^[А-Яа-яЁё\s]+$" />
         </div>
         <fieldset>
             <legend>Имя и контакты владельца</legend>
-            <p>Имя<input type="text" name="vlad" id="contact" /></p>
-            <p>Контактные данные <input type="text" name="vlad1" id="contact2" /></p>
+            <label for="userName">Имя</label>
+            <input type="text" name="vlad" id="userName" required pattern="[A-Za-zА-Яа-яЁё]{1,15}" />
+            <label for="contact">Контактные данные</label>
+            <input type="text" name="vlad1" id="contact" required placeholder="Ваш адрес" />
+            <label for="phone">Ваш номер телефона </label>
+            <input type="tel" name="phone"
+                pattern="(\+7[-_()\s]+|\+7\s?[(]{0,1}[0-9]{3}[)]{0,1}\s?\d{3}[-]{0,1}\d{2}[-]{0,1}\d{2})" minlength="10"
+                maxlength="20" placeholder="+7(___)___-__-__" />
         </fieldset>
         <div>
             <p>Порода питомца</p>
@@ -35,32 +46,32 @@
         </div>
         <p>Чем питается?</p>
         <div>
-            <input type="checkbox" name="food" id="food" value="сухой корм" />
+            <input type="checkbox" name="food" id="food" value="сухой корм" required />
             <label for="food">сухой корм</label>
         </div>
         <div>
-            <input type="checkbox" name="food2" id="food2" value="влажный корм" />
+            <input type="checkbox" name="food2" id="food2" value="влажный корм" required />
             <label for="food2">влажный корм</label>
         </div>
         <div>
-            <input type="checkbox" name="food3" id="food3" value="натуральный корм" />
+            <input type="checkbox" name="food3" id="food3" value="натуральный корм" required />
             <label for="food3">натуральный корм</label>
         </div>
         <p>Самец или самка?</p>
         <div>
-            <input type="radio" name="s" value="m" /> Самец <br />
-            <input type="radio" name="s" value="w" /> Самка
+            <input type="radio" name="s" value="m" required /> Самец <br />
+            <input type="radio" name="s" value="w" required /> Самка
         </div>
         <div>
             <label for="contact1">Комментарий владельца</label>
         </div>
-        <textarea rows="10" cols="50" name="vlad" id="contact1">Введите свой комментарий</textarea>
-        <p>Приложить фото питомца</p>
-        <input type="file" />
         <div>
-            <input type="button" value="Сохранить">
-            <input type="reset" value="Сбросить">
+            <textarea rows="10" cols="50" name="vlad" id="contact1" placeholder="Введите свой комментарий"></textarea>
+            <p>Приложить фото питомца</p>
+            <input type="file" />
         </div>
+        <input type="submit" value="Сохранить">
+        <input type="reset" value="Сбросить">
     </form>
 </body>
 
