@@ -1,4 +1,4 @@
-document.addEventListener("DOMContentLoaded", function (event) {
+document.addEventListener("DOMContentLoaded", function (e) {
     let nameAuthor = localStorage.getItem('nameUser');
     if (nameAuthor!=null) {
         author.value = nameAuthor;
@@ -41,7 +41,8 @@ function addElement() {
     let newDiv = "";
     
     for (let comment of comments) {
-    newDiv += `<div type='text' class='form-control m-2'><span>${photolink} </span><span>${name}:</span><span>${comment}</span></div>`;
+        newDiv += `<div type='text' class='form-control m-2'>
+        <span>${photolink} </span><span>${name}:</span><span>${comment}</span></div>`;
     }
 
     newComentsDiv.innerHTML = newDiv;
@@ -65,3 +66,5 @@ function addElement() {
     function checkSpam(comment) {
         return comment.replace(/viagra|xxxx/ig, "******")
     };
+
+    
