@@ -30,9 +30,7 @@ data.forEach(item => {
 button.addEventListener('click', function() {
     localStorage.clear()
 
-    while (ul.firstChild) {
-        ul.removeChild(ul.firstChild)
-    }
+    ul.innerHTML = "";
 
     notesArray = [];
 });

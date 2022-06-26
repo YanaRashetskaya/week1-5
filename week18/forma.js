@@ -37,7 +37,8 @@ function checkValidity(input) {
 }
 
 //Проверка для всех полей
-function checkAll() {
+function checkAll(e) { 
+	e.preventDefault()
 		//получаем все инпуты
 	errors = [];
     let inputs = document.querySelectorAll("input");
@@ -48,6 +49,9 @@ function checkAll() {
     }
 
 		//выводим ошибки в div 
-    document.querySelectorById('errorsInfo').innerHTML = 
-	errors.join('. <br>');
+		let errorDiv = document.getElementById('errorsInfo');
+		errorDiv.innerHTML = errors.join('. \n');
 }
+
+
+document.querySelector("#button").addEventListener("click", checkAll);
