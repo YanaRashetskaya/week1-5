@@ -1,30 +1,24 @@
 
 class Calculator {
 
-
-    static showplus(one, two) 
-    {
-        return  one + + two;
+    static showplus(one, two) {
+        return  +one + +two;
     }
 
     static showminus(one, two) {
-
         return one - two; 
     }
     
     static showtimes(one, two) {
-        
         return one * two;
     }
     
     static showdivide(one, two) {
         if (two == 0) {
             alert ('На ноль делить нельзя!');
-    }
-    else {
+    } else {
         return one / two; 
     }
-
     }
 };
 
