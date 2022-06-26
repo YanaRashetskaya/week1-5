@@ -43,7 +43,7 @@ console.log(validator.isPhone('+7(910)123-45-67'));
 
 }
 
-console.log(ValidatorStatic.isEmail('alisa@mail.ru'));
-console.log(ValidatorStatic.isDomain('itgirlschool.ru'));
-console.log(ValidatorStatic.isDate('12.05.2021'));
-console.log(ValidatorStatic.isPhone('+7(910)123-45-67'));
+console.log(Validator.isEmail('alisa@mail.ru'));
+console.log(Validator.isDomain('itgirlschool.ru'));
+console.log(Validator.isDate('12.05.2021'));
+console.log(Validator.isPhone('+7(910)123-45-67'));
