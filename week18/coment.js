@@ -1,15 +1,15 @@
 document.addEventListener("DOMContentLoaded", function (e) {
-    let nameAuthor = localStorage.getItem('nameUser');
+    const nameAuthor = localStorage.getItem('nameUser');
     if (nameAuthor!=null) {
         author.value = nameAuthor;
     }
 
-    let photo = localStorage.getItem('Photo');
+    const photo = localStorage.getItem('Photo');
     if (photo!=null) {
         newPhotoLink.value = photo;
     }
 
-    let yoorComent = localStorage.getItem('coment');
+    const yoorComent = localStorage.getItem('coment');
     yoorComent = JSON.parse(yoorComent);
     if (yoorComent!=null) {
         newComentsDiv.value = yoorComent;
@@ -17,7 +17,7 @@ document.addEventListener("DOMContentLoaded", function (e) {
 
 });
 
-let comments = [];
+const comments = [];
 
 const comentsValue = document.getElementById('yourComents');
 
@@ -61,7 +61,7 @@ function addElement() {
 
 };
 
-    let comment = ['viagra, xxxx'];
+    const comment = ['viagra, xxxx'];
     
     function checkSpam(comment) {
         return comment.replace(/viagra|xxxx/ig, "******")

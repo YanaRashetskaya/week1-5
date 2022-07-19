@@ -8,13 +8,13 @@ class Worker {
     }
 
     getSalary(rate, days) {
-        let salary = this.rate * this.days;
+        const salary = this.rate * this.days;
         return salary;
     }
 };
 
 
-    let worker = new Worker('Иван', 'Иванов', 10, 31);
+    const worker = new Worker('Иван', 'Иванов', 10, 31);
 
     console.log(worker.name); 
     console.log(worker.surname); 

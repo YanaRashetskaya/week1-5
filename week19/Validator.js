@@ -24,7 +24,7 @@ console.log(validator.isDate('12.05.2021'));
 console.log(validator.isPhone('+7(910)123-45-67'));
 
 
- class ValidatorStatic {
+class ValidatorStatic {
     
     static isEmail(str) {
         return ((str.indexOf('@') !== -1) && (str.indexOf('.') !== -1))

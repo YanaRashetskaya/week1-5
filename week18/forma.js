@@ -1,13 +1,13 @@
-let selector = document.querySelectorAll('input [type="tel"]');
+const selector = document.querySelectorAll('[type="tel"]');
 
-let im = new Inputmask ("+7(999) 999-99-99");
+const mask = new Inputmask ("+7(999) 999-99-99");
 
-im.mask(selector);
+mask.mask(selector);
 
 //Проверка для одного поля
 let errors = [];
 function checkValidity(input) {
-    let validity = input.validity;
+    const validity = input.validity;
 
 	if (validity.valueMissing) { 
 		errors.push('Поле ' + input.placeholder + ' не заполнено'); 
@@ -18,21 +18,21 @@ function checkValidity(input) {
 	}
     
 	if (validity.rangeOverflow) { 
-		let max = input.max;
+		const max = input.max;
 		errors.push('Максимальное значение не может быть больше чем ' + max); 
 	}
     
 	if (validity.rangeUnderflow) { 
-		let min = input.min;
+		const min = input.min;
 		errors.push('Минимальное значение не может быть больше чем ' + min); 
 	}
     
 	if (validity.tooLong) { 
-		errors.push('Значение слишком длинное'); 
+		errors.push('Значение слишком длинное, придумайте другое значение'); 
 	} 
 
 	if (validity.tooShort) { 
-		errors.push('Значение слишком короткое'); 
+		errors.push('Значение слишком короткое, придумайте другое значение'); 
 	} 
 }
 
@@ -49,8 +49,8 @@ function checkAll(e) {
     }
 
 		//выводим ошибки в div 
-		let errorDiv = document.getElementById('errorsInfo');
-		errorDiv.innerHTML = errors.join('. \n');
+	const errorDiv = document.getElementById('errorsInfo');
+	errorDiv.innerHTML = errors.join('. \n');
 }
 
 

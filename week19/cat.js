@@ -23,7 +23,7 @@ const genderField = document.getElementsByName("sex");
 const commentField = document.getElementById("comment");
 
 
-button.addEventListener("onc", () => {
+button.addEventListener("click", () => {
     console.log(new Cat(nameCatField.value,
     userNameField.value,
     adresField.value,
