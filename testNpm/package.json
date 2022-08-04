@@ -1,0 +1,21 @@
+{
+  "name": "test-npm",
+  "version": "1.0.0",
+  "description": "test project",
+  "main": "index.js",
+  "scripts": {
+    "test": "1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "Yana"
+  },
+  "keywords": [
+    "99"
+  ],
+  "author": "Yana",
+  "license": "ISC",
+  "dependencies": {
+    "rm-emoji-picker": "^1.0.0"
+  }
+}
