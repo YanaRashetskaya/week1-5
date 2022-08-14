@@ -1,0 +1,24 @@
+.title {
+    padding-top: 20px;
+    text-align: center;
+    font-size: 32pt;
+}
+
+.gero {
+    padding: 10px;
+    padding-bottom: 30px;
+    border: 10px solid rgb(41, 36, 188);
+    border-radius: 15px;
+    text-align: center;
+    background-color: rgb(219, 200, 152);
+    margin: 10px;
+    font-size: 14pt;
+}
+
+.heroContainer {
+    grid-template-columns:  1fr 1fr;
+    display: grid;
+}
+.Container{
+    display: grid;
+}
