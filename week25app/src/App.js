@@ -6,12 +6,12 @@ import {cats} from './components/data/dataCat';
 function App() {
   return (
     <div className={styles.App}>  
-    <div className="cat">
+    <div className={styles.cat}>
       {cats.map((cat)=>
-    <Cat name={cat.name} url={cat.url}></Cat>
+    <Cat name={cat.name} url={cat.url} key={cat.id} isSelected={cat.isSelected}></Cat>
     )}
-    </div>
-
+    
+    </div> 
     </div>
   );
 }

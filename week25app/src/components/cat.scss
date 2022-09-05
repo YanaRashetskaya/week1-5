@@ -1,6 +1,7 @@
 .cat-card{
     width: 30%;
     margin: 5px 15px;
+    text-align: center;
 }
 .cat-card img{
     width: 100%;
@@ -9,6 +10,7 @@
 }
 .cat-name{
     font-weight: bold;
+    color:brown;
 }
 
 .cat-card button{
@@ -17,3 +19,4 @@
     font-size: larger;
     margin-top: 15px;
 }
+
