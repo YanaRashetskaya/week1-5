@@ -6,6 +6,12 @@
 display: flex;
 }
 
-
+.cart{
+display: flex;
+gap: 0.2%;
+margin-left: 10%;
+max-width: 40%;
+height: 300px;
+}
 
 
