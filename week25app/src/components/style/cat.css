@@ -1,0 +1,23 @@
+.cat-card {
+  width: 30%;
+  margin: 5px 15px;
+  text-align: center;
+}
+
+.cat-card img {
+  width: 100%;
+  border-radius: 15px;
+  height: 500px;
+}
+
+.cat-name {
+  font-weight: bold;
+  color: brown;
+}
+
+.cat-card button {
+  width: 100%;
+  height: 30px;
+  font-size: larger;
+  margin-top: 15px;
+}/*# sourceMappingURL=cat.css.map */

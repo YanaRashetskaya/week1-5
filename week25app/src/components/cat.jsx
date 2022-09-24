@@ -1,10 +1,9 @@
-import './cat.scss';
+import './style/cat.scss';
 
 function Cat(props) {
-    let classCat = "";
-    if (props.isSelected) classCat = "selected";
+
     return (
-        <div className={"cat-card " + classCat}>
+        <div className={`cat-card ${props.isSelected ? "selected" : ""}`}>
             <img src={props.url} alt="nice" />
             <div className="cat-name"> {props.name}</div>
             <div className="cat-text"> Ласковый и игривый</div>

@@ -1,21 +1,22 @@
 
 import styles from './App.css';
-import Cat from './components/cat';
-import {cats} from './components/data/dataCat';
 import {card} from './components/data/dataCard';
 import Card from './components/Card';
+import dark from './components/style/dark.css';
+import blue from './components/style/blue.css';
+import green from './components/style/green.css';
+import red from './components/style/red.css';
+
 
 function App() {
+const colorBackground =[blue, green, red, dark];
+
   return (
-    <div className={styles.App}>  
-    <div className={styles.cat}>
-      {cats.map((cat)=>
-    <Cat name={cat.name} url={cat.url} key={cat.id} isSelected={cat.isSelected}></Cat>
-    )}
-    </div> 
+    <div className={styles.App}>    
     <div className={styles.cart}>
-      {card.map((tarif)=>
-    <Card header={tarif.header} main={tarif.main} speed={tarif.speed} footer={tarif.footer} isSelected={tarif.isSelected}></Card>
+      {card.map((tarif, id)=>
+    <Card header={tarif.header} main={tarif.main} theme={colorBackground[id]} speed={tarif.speed} footer={tarif.footer}
+    isSelected={tarif.isSelected}></Card>
     )}
     </div> 
     </div>
