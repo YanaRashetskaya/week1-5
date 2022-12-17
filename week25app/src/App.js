@@ -6,6 +6,9 @@ import dark from './components/style/dark.css';
 import blue from './components/style/blue.css';
 import green from './components/style/green.css';
 import red from './components/style/red.css';
+import Button from './components/Button';
+import Timer from './components/Timer';
+
 
 
 function App() {
@@ -19,6 +22,10 @@ const colorBackground =[blue, green, red, dark];
     isSelected={tarif.isSelected}></Card>
     )}
     </div> 
+    <Button name={'Нажми меня'}  id="buttonTest" className={styles.Button}></Button>
+    <div className={styles.timer}>
+    <Timer ></Timer>
+    </div>
     </div>
   );
 }

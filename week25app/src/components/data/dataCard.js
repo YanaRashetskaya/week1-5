@@ -19,7 +19,6 @@ export const card = [
     main:"руб 550 /мес",
     speed: "до 100 Мбит/сек",
     footer: "Обьем включенного трафика неограничен",
-    isSelected:true
     },
     {
     id: "4",

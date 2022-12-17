@@ -20,4 +20,12 @@
   height: 30px;
   font-size: larger;
   margin-top: 15px;
+}
+
+.selected {
+  background: rgb(144, 164, 33);
+}
+
+.selected:hover {
+  transform: scale(1.2);
 }/*# sourceMappingURL=cat.css.map */
